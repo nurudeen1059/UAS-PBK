@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi"
+    },
+    {
+      "id": 2,
+      "username": "nurudeen",
+      "email": "nurudeen@gmail.com",
+      "password": "$2a$10$kapHNr53yTZ2S1vpiOoDhe22tRBfqdSYRHIWBRH4n3zKaBB7Jk242"
+    },
+    {
+      "id": 3,
+      "username": "ilham",
+      "email": "ilham@gmail.com",
+      "password": "$2a$10$Q..hJDeRqbr55dF/Wt0eVeG1yQ54tgtlu2PvX2VWpvQQnfTcFliRa"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Belajar Vue.js",
+      "description": "Mempelajari framework Vue.js untuk frontend development",
+      "completed": false,
+      "createdAt": "2024-01-15T10:00:00.000Z",
+      "updatedAt": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Membuat API",
+      "description": "Membuat REST API dengan Express.js",
+      "completed": true,
+      "createdAt": "2024-01-14T09:00:00.000Z",
+      "updatedAt": "2024-01-14T09:00:00.000Z"
+    }
+  ]
+}
